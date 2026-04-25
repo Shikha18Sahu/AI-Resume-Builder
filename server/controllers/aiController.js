@@ -1,7 +1,7 @@
 import { response } from "express";
 import Resume from "../models/resume.js";
 import ai from "../configs/ai.js";
-console.log("API HIT");
+
 // controller for enchancing a resume's professional summary 
 // POST: /api/ai/enhance-pro-sum
 export const enhanceJobDescription = async(req,res) => {
