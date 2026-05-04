@@ -26,34 +26,29 @@ Image storage using ImageKit
 Public/Private resume visibility toggle
 Generate shareable resume links
 Download/print resumes as PDF
+
 🛠️ Tech Stack
-
 Frontend
-
 React.js
 Tailwind CSS
 
 Backend
-
 Node.js
 Express.js
 
 Database
-
 MongoDB
 
 AI Integration
-
 Google Gemini API
 
 Media Handling
-
 ImageKit
 
 Deployment
-
 Vercel (Frontend)
 Render (Backend)
+
 ⚙️ Installation & Setup
 1. Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
@@ -105,13 +100,10 @@ Multi-language support
 Advanced AI suggestions
 Drag-and-drop resume sections
 🤝 Contributing
-
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
 📬 Contact
-
-📧 your-email@example.com
+📧 sahushikhauptu@gmail.com
 
 ⭐ Support
-
 If you like this project, give it a ⭐ on GitHub!
