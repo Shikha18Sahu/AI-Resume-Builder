@@ -1,4 +1,6 @@
 import React from 'react'
+import logo from '../../assets/resume.png'
+
 
 const Footer = () => {
   return (
@@ -13,8 +15,12 @@ const Footer = () => {
 
                        <footer className="flex flex-wrap justify-center lg:justify-between overflow-hidden gap-10 md:gap-20 py-16 px-6 md:px-16 lg:px-24 xl:px-32 text-[13px] text-gray-500 bg-gradient-to-r from-white via-blue-200/70  to-white mt-40">
                 <div className="flex flex-wrap items-start gap-10 md:gap-[60px] xl:gap-[140px]">
-                    <a href="#">
+                    {/* <a href="#">
                         <img src="/logo.svg" alt="logo" className='h-11 w-auto' />
+                    </a> */}
+                    
+                     <a href="#">
+                        <img src={logo} alt="logo" className="h-13 w-auto" />
                     </a>
                     <div>
                         <p className="text-slate-800 font-semibold">Product</p>
