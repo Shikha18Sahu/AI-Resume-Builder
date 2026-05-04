@@ -20,7 +20,7 @@ const Footer = () => {
                     </a> */}
                     
                      <a href="#">
-                        <img src={logo} alt="logo" className="h-13 w-auto" />
+                        <img src={logo} alt="logo" className="h-18 w-auto" />
                     </a>
                     <div>
                         <p className="text-slate-800 font-semibold">Product</p>

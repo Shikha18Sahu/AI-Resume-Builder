@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to='/'>
           {/* <img src="/logo.svg" alt="logo" className='h-11 w-auto' /> */}
             <a href="#">
-                <img src={logo} alt="logo" className="h-14 w-auto" />
+                <img src={logo} alt="logo" className="h-18 w-auto" />
             </a>
           
         </Link>
