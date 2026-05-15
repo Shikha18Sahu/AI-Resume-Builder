@@ -1,109 +1,94 @@
-🚀 AI Resume Builder (MERN Stack)
+# 🤖 AI Resume Builder
 
-A full-stack AI-powered Resume Builder that helps users create, manage, and optimize professional resumes with ease. The platform leverages modern web technologies and AI to generate impactful, ATS-friendly resumes along with dynamic customization and sharing features.
+> Full-stack AI-powered resume builder — create, manage, and optimize ATS-friendly resumes with smart customization and sharing.
 
-✨ Features
-🔐 Authentication
-Secure user registration and login system
-Protected routes for user-specific data
-📝 Resume Management
-Create resumes from scratch
-Upload existing resumes (PDF) with auto-parsing
-Edit and manage multiple resumes
-🤖 AI-Powered Enhancements
-Generate and improve professional summaries
-Optimize job descriptions for ATS compatibility
-AI-based resume parsing for uploaded files
-🎨 Customization
-Multiple resume templates
-Real-time theme and color customization
-Responsive and clean UI
-🖼️ Media Handling
-Upload profile images
-Background removal and optimization
-Image storage using ImageKit
-🌐 Sharing & Export
-Public/Private resume visibility toggle
-Generate shareable resume links
-Download/print resumes as PDF
+🔗 **Live Demo:** [ai-resume-builder-lake-three.vercel.app](https://ai-resume-builder-lake-three.vercel.app) &nbsp;|&nbsp; ⭐ Star this repo if you find it useful!
 
-🛠️ Tech Stack
-Frontend
-React.js
-Tailwind CSS
+![Tech Stack](https://img.shields.io/badge/React.js-61DAFB?style=flat&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=flat&logo=google&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
-Backend
-Node.js
-Express.js
+---
 
-Database
-MongoDB
+## ✨ Features
 
-AI Integration
-Google Gemini API
+| | Feature | Description |
+|---|---|---|
+| 🔐 | **Auth** | Secure login, protected routes, JWT-based sessions |
+| 📝 | **Resume management** | Create from scratch or upload & auto-parse existing PDFs |
+| 🤖 | **AI enhancements** | ATS optimization, smart summaries, AI-based PDF parsing via Gemini |
+| 🎨 | **Customization** | Multiple templates, real-time theme & color picker |
+| 🖼️ | **Media handling** | Profile image upload with background removal via ImageKit |
+| 🌐 | **Share & export** | Public/private toggle, shareable links, PDF download |
 
-Media Handling
-ImageKit
+---
 
-Deployment
-Vercel (Frontend)
-Render (Backend)
+## 🛠️ Tech Stack
 
-⚙️ Installation & Setup
-1. Clone the repository
+| Layer | Technology |
+|---|---|
+| Frontend | React.js, Tailwind CSS |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| AI | Google Gemini API |
+| Media | ImageKit |
+| Deployment | Vercel (frontend) · Render (backend) |
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# 1. Clone the repo
 git clone https://github.com/Shikha18Sahu/AI-Resume-Builder.git
-cd your-repo-name
-2. Setup Backend
-cd server
-npm install
-npm run server
-3. Setup Frontend
-cd client
-npm install
-npm run dev
 
-⚠️ Make sure the backend server is running before starting the frontend.
+# 2. Start backend
+cd server && npm install && npm run server
 
-🔑 Environment Variables
+# 3. Start frontend (in a new terminal)
+cd client && npm install && npm run dev
+```
 
-Create a .env file in the server folder and add:
+> ⚠️ Make sure the backend is running before starting the frontend.
 
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside the `server/` folder:
+
+```env
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
 GEMINI_API_KEY=your_gemini_api_key
 IMAGEKIT_PUBLIC_KEY=your_key
 IMAGEKIT_PRIVATE_KEY=your_key
 IMAGEKIT_URL_ENDPOINT=your_url
-🚀 Deployment
-Frontend (Vercel)
-Deploy the client folder on Vercel
-Add environment variables if required
-Connect with GitHub for continuous deployment
-Backend (Render)
-Deploy the server folder on Render
-Add all environment variables in Render dashboard
-Set start command:
-npm run server
-📌 Project Workflow
-Built responsive UI using Tailwind CSS
-Developed REST APIs with Express.js
-Integrated MongoDB for data storage
-Implemented AI features using Google Gemini
-Integrated ImageKit for media processing
-Deployed using Vercel and Render
-📷 Screenshots
+```
 
+---
 
-🚀 Future Improvements
-More resume templates
-Multi-language support
-Advanced AI suggestions
-Drag-and-drop resume sections
-🤝 Contributing
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+## 🌍 Deployment
 
-📬 Contact
-📧 sahushikhauptu@gmail.com
+**Frontend → Vercel**
+- Deploy the `client/` folder
+- Add environment variables in Vercel dashboard
+- Connect GitHub for auto-deploy on push
 
-⭐ Support
-If you like this project, give it a ⭐ on GitHub!
+**Backend → Render**
+- Deploy the `server/` folder
+- Add all `.env` variables in Render dashboard
+- Set start command: `npm run server`
+
+---
+
+## 🔮 Future Improvements
+
+- More resume templates
+- Drag-and-drop resume sections
+- Multi-language support
+- Advanced AI suggestions & scoring
+
+---
+
+## 📬 Contact
+
+**Shikha Sahu** · [LinkedIn](https://www.linkedin.com/in/shikha-sahu-3b003b285/) · sahushikhauptu@gmail.com · [GitHub](https://github.com/Shikha18Sahu)
